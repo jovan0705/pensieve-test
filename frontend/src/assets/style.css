@@ -1,0 +1,105 @@
+.deviceListContainer {
+    width: 100vw;
+    height: 100vh;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.deviceListTable {
+    border: 1px solid;
+    border-color: white;
+    border-collapse: separate;
+    border-radius: 12px;
+}
+
+.headText {
+    color: white !important;
+}
+
+.rowText {
+    color: white;
+}
+
+.loadingContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deviceDetailContainer {
+    border: 1px solid white;
+    border-radius: 24px;
+    display: flex;
+    padding: 40px;
+}
+
+.gridItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deviceId {
+    text-align: left;
+    color: white;
+    font-size: 48px;
+}
+
+.deviceType {
+    text-align: left;
+    color: white;
+    font-size: 36px;
+    margin-top: -12px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: end;
+}
+
+.chartContainer {
+    border: 1px solid white;
+    display: flex;
+    border-radius: 12px;
+}
+
+.chartBox {
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.chartDetailBox {
+    width: 50%;
+    border-left: 1px solid white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chartDetailBox p {
+    color: white;
+}
+
+.textContainer {
+    display: flex;
+    align-items: center;
+}
+
+.textContainer p {
+    color: white;
+}
+
+.colorDetail {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-right: 6px;
+    margin-top: 2px;
+}
